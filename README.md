@@ -20,13 +20,19 @@ Most of the items were purchased from [Typeractive](https://typeractive.xyz).
 This configuration uses ZMK firmware to manage multiple layers and custom keymaps. Below are the details of each layer along with screenshots.
 
 ### Base Layer
-The base layer includes a singular sub-layer accessed via the "FN" key.
+The base layer includes most of the keys found on a 60% mini keyboard. It also has a sub-layer accessed via the holding a "FN" key, which includes all other missing keys such as F1-12, arrow keys, home keys, and Bluetooth settings.
 
-![Base Layer](link_to_base_layer_screenshot)
+#### Base Layer
+![Base Layer](./assets/Base_Layer.png)
+
+#### Sub Base Layer
+![Sub Base Layer](./assets/Sub_Base_Layer.png)
 
 ### Gaming Layer
-The gaming layer is triggered by a combination of the "[" and "]" keys. This layer also has an additional sub-gaming layer for quick access to other parts of the keyboard without needing to move hands away from the mouse.
+The gaming layer is toggled by pressing a combination of the "[" and "]" keys, located just under the screen on each side of the keyboard. To switch back, simply press the same key combo. The layout itself is shifted to the right by one key to ensure the correct fingers are on the **WASD** keys. This layer also has an additional sub-gaming layer for quick access to other parts of the keyboard without needing to move your hands away from the mouse.
 
-![Gaming Layer](link_to_gaming_layer_screenshot)
-![Sub-Gaming Layer](link_to_sub_gaming_layer_screenshot)
+#### Gaming Layer
+![Gaming Layer](./assets/Gaming_Layer.png)
 
+#### Sub Gaming Layer
+![Sub Gaming Layer](./assets/Sub_Gaming_Layer.png)
