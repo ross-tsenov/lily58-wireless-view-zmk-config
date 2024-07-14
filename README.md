@@ -2,7 +2,7 @@
 
 This repository contains the ZMK firmware configuration for my Lily58 wireless keyboard. The Lily58 is a split ergonomic mechanical keyboard with wireless capabilities, customized with Durock T1 Silent Shrimp switches and JSJT Sky and Blue Keycaps.
 
-![Lily58 Wireless Keyboard](assets/Keyboard_Picture.jpg)
+![Lily58 Wireless Keyboard](./assets/Keyboard_Picture.png)
 
 ## All Items
 - **PCB** - [Lily58 Wireless Partially Assembled PCB](https://typeractive.xyz/products/lily58-partially-assembled-pcb)
