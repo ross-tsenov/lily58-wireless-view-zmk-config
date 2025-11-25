@@ -18,6 +18,11 @@
             slow-release;
             layers = <0 2>;
         };
+
+        MAC_BASE {
+            bindings = <&tog 4>;
+            key-positions = <11 23>;
+        };
     };
 
     keymap {
@@ -78,6 +83,20 @@
             >;
 
             label = "SUB_G";
+        };
+
+        Mac_Base {
+            label = "MAC_BASE";
+            display-name = "BaseM";
+            bindings = <
+&kp ESC           &kp N1  &kp N2  &kp N3    &kp N4  &kp N5                                  &kp N6         &kp N7      &kp N8            &kp N9   &kp N0    &kp MINUS
+&kp TAB           &kp Q   &kp W   &kp E     &kp R   &kp T                                   &kp Y          &kp U       &kp I             &kp O    &kp P     &kp EQUAL
+&kp GRAVE         &kp A   &kp S   &kp D     &kp F   &kp G                                   &kp H          &kp J       &kp K             &kp L    &kp SEMI  &kp SQT
+&kp LS(LEFT_WIN)  &kp Z   &kp X   &kp C     &kp V   &kp B      &kp LBKT     &kp RBKT        &kp N          &kp M       &kp COMMA         &kp DOT  &kp FSLH  &kp BACKSLASH
+                                  &kp LALT  &mo 1   &kp SPACE  &kp ENTER    &kp LEFT_SHIFT  &kp BACKSPACE  &kp DELETE  &kp LEFT_CONTROL
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
